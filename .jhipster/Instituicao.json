@@ -1,0 +1,48 @@
+{
+    "relationships": [
+        {
+            "relationshipName": "instituicao",
+            "otherEntityName": "instituicao",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "sigla",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "nome",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "telefone",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "endereco",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20160707160328",
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "instituicao",
+    "pagination": "infinite-scroll",
+    "microserviceName": "rh",
+    "searchEngine": "elasticsearch"
+}
