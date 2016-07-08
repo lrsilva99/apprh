@@ -24,29 +24,38 @@
             <column name="sigla" type="varchar(255)">
                 <constraints nullable="false" />
             </column>
-            
+
             <column name="nome" type="varchar(255)">
                 <constraints nullable="false" />
             </column>
-            
+
             <column name="email" type="varchar(255)">
                 <constraints nullable="false" />
             </column>
-            
+
             <column name="telefone" type="varchar(255)">
                 <constraints nullable="true" />
             </column>
-            
+
             <column name="endereco" type="varchar(255)">
                 <constraints nullable="true" />
             </column>
-            
+
             <column name="instituicao_id" type="bigint">
                 <constraints nullable="true" />
             </column>
 
+            <column name="last_modified_by" type="varchar(50)"/>
+            <column name="last_modified_date" type="timestamp"/>
+            <column name="created_by" type="varchar(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="created_date" type="timestamp" defaultValueDate="${now}">
+                <constraints nullable="false"/>
+            </column>
+
             <!-- jhipster-needle-liquibase-add-column - Jhipster will add columns here, do not remove-->
         </createTable>
-        
+
     </changeSet>
 </databaseChangeLog>
