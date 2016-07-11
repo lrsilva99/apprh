@@ -1,0 +1,27 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "nome",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "descricao",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20160710221851",
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "escolaridade",
+    "pagination": "infinite-scroll",
+    "microserviceName": "rh",
+    "searchEngine": "elasticsearch",
+    "enableEntityAudit": true
+}

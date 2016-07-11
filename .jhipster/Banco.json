@@ -1,0 +1,27 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "codigo",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "nome",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20160711011430",
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "banco",
+    "pagination": "infinite-scroll",
+    "microserviceName": "rh",
+    "searchEngine": "elasticsearch",
+    "enableEntityAudit": true
+}

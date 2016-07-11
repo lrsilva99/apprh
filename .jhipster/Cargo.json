@@ -1,0 +1,26 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "nome",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "descricao",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20160709234209",
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "cargo",
+    "pagination": "pager",
+    "microserviceName": "rh",
+    "searchEngine": "elasticsearch"
+}
